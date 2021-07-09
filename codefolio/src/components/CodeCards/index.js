@@ -20,8 +20,8 @@ import React, { useState } from 'react';
 //     </div>
 // }
 
-function CodeCards() {
-    const [carddata] = useState([
+function myProjects() {
+    const [carddata] = [
         {
           id: 1,
           name: "Run Buddy",
@@ -85,8 +85,8 @@ function CodeCards() {
           github: "https://github.com/MissAimeeJay/HoriseonSocialSolutionServices",
           livelink: "https://missaimeejay.github.io/HoriseonSocialSolutionServices/"
       }
-  ]);
+  ];
 }
 
 
-export default CodeCards;
+export default myProjects;
