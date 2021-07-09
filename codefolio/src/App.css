@@ -45,3 +45,5 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+body {background-color: #000102;}

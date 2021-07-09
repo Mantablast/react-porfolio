@@ -3,8 +3,7 @@ import React from 'react';
 function AboutMe() {
   return (
     <section className="my-5">
-        <h1>Show up, do the work, always learn, eat the snacks and do better than yesterday.</h1>
-      <h2 id="about">Make way for efficiencies, problem solves, money savings and a sunny disposition.  </h2>
+        <span class="white-text text-darken-2">Show up, do the work, always learn, eat the snacks and do better than yesterday.  Make way for efficiencies, problem solves, money savings and a sunny disposition.</span>
     </section>
   );
 }
