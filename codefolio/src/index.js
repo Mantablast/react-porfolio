@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Service worker for later
+// import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+// import reportWebVitals from './reportWebVitals';
 // import React, { useState } from 'react';
 
 ReactDOM.render(
@@ -11,6 +14,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// serviceWorkerRegistration.unregister();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

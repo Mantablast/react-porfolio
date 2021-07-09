@@ -6,17 +6,14 @@ import Nav from './components/Nav';
 import Portfolio from './components/Porfolio';
 import Resume from './components/Resume';
 
+
 function App() {
-
-
   return (
     <div>
-      <Nav
-
-      ></Nav>
+      <Nav></Nav>
       <main>
-        <AboutMe></AboutMe>
-        <Contact></Contact>
+        <AboutMe />
+        <Contact />
         <Portfolio></Portfolio>
         {/* <Resume></Resume> */}
       </main>
@@ -24,5 +21,8 @@ function App() {
     </div>
   );
 }
+
+
+
 
 export default App;

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Run Buddy",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/Run-Buddy",
+        "livelink": "https://missaimeejay.github.io/Run-Buddy/"
+    },
+    {
+        "id": 2,
+        "name": "Horoscopes",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/myFirstHoroscopeApi",
+        "livelink": "https://missaimeejay.github.io/myFirstHoroscopeApi/"
+    },
+    {
+        "id": 3,
+        "name": "LocalShop",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/chaitalizn/localshop",
+        "livelink": "https://shop-local-with-localshop.herokuapp.com"
+    },
+    {
+        "id": 4,
+        "name": "Drinkspo",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/PrimalOrB/find_your_drink",
+        "livelink": "https://primalorb.github.io/find_your_drink/"
+    },
+    {
+        "id": 5,
+        "name": "Weather Reporter",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/WeatherDashboardAPI",
+        "livelink": "https://missaimeejay.github.io/WeatherDashboardAPI/"
+    },
+    {
+        "id": 6,
+        "name": "Express Note Taker",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/Express-Note-Taker",
+        "livelink": "https://express-note-takr.herokuapp.com/"
+    },
+    {
+        "id": 7,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/WorkDaySchedulerChallenge",
+        "livelink": "https://missaimeejay.github.io/WorkDaySchedulerChallenge/"
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/PasswordGeneratorChallenge",
+        "livelink": "https://missaimeejay.github.io/PasswordGeneratorChallenge/"
+    },
+    {
+        "id": 9,
+        "name": "Horiseon Social Services Code Refactor",
+        "image": "https://github.com/kpehl/react-retreat/raw/main/docs/react-retreat.png",
+        "github": "https://github.com/MissAimeeJay/HoriseonSocialSolutionServices",
+        "livelink": "https://missaimeejay.github.io/HoriseonSocialSolutionServices/"
+    }
+]
