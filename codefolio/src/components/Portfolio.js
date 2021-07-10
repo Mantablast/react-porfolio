@@ -1,6 +1,6 @@
 import React from "react";
-import myProjects from "../CodeCards"
-import Codecards from "../CodeCards"
+import myProjects from "./CodeCards"
+import Codecards from "./CodeCards"
 
 function Portfolio() {
   return (

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import AboutMe from './components/AboutMe';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import Nav from './components/Nav';
-import Portfolio from './components/Porfolio';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
