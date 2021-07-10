@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 //Materialize import
 
-create cards to map and display
-function myProjects = (props) => {
+// create cards to map and display
+function myProjects() {
     <div class="col s4">
         <div class="card">
             <div class="card-image">
