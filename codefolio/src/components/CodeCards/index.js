@@ -2,25 +2,25 @@ import React, { useState } from 'react';
 //Materialize import
 
 //create cards to map and display
-// function CodeCards(props) {
-//     <div class="col s4">
-//         <div class="card">
-//             <div class="card-image">
-//                 <img src={props.image} />
-//                 <span class="card-title">{props.name}</span>
-//             </div>
-//             <div class="card-content">
-//                 <p>{props.description}</p>
-//             </div>
-//             <div class="card-action">
-//                 <a href={props.github}>Repo</a>
-//                 <a href={props.livelink}>Live Link</a>
-//             </div>
-//         </div>
-//     </div>
-// }
+function myProjects(props) {
+    <div class="col s4">
+        <div class="card">
+            <div class="card-image">
+                <img src={props.image} />
+                <span class="card-title">{props.name}</span>
+            </div>
+            <div class="card-content">
+                <p>{props.description}</p>
+            </div>
+            <div class="card-action">
+                <a href={props.github}>Repo</a>
+                <a href={props.livelink}>Live Link</a>
+            </div>
+        </div>
+    </div>
+}
 
-function myProjects() {
+function Codecards() {
     const [carddata] = [
         {
           id: 1,

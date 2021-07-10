@@ -1,33 +1,35 @@
 import React from "react";
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import { Link } from "react-router-dom";
 
 function Nav(props) {
 
-
+//make sure links to are exact path
   return (
     <header className="flex-row px-1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"></link>
       <nav>
-        <div class="nav-wrapper 1a237e 1a237e indigo darken-4">
-          <a href="#" class="brand-logo center">
-          🚀Aimee Jesso🚀
+        <div className="nav-wrapper 1a237e 1a237e indigo darken-4">
+          <a href="#" className="brand-logo center">
+          🚀Aimee Jesso 🚀
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          
+          <ul id="nav-mobile" className="right">
             <li>
-              <a href="#aboutme">About Me</a>
+            <Link to="/aboutme">About</Link>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+            <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+            <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+            <Link to="/resume">Resume</Link>
             </li>
           </ul>
         </div>
-        <div class="banner"></div>
+        <div className="banner"></div>
       </nav>
 
     </header>

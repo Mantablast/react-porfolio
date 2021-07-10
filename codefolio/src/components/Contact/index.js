@@ -37,7 +37,7 @@ function Contact() {
   };
 
   return (
-    <section class ="back-box">
+    <section className="back-box">
       <h3 data-testid="h1tag">Contact me</h3>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

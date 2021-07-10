@@ -15,10 +15,10 @@ function App() {
         <Router>
           <Nav />
           <Switch>
-            <Route path="/" component={Home} />
-            <Route path="/aboutme" component={AboutMe} />
-            <Route path="/contact" component={Contact} />
-            {/* <Route path="/portfolio" component={Portfolio} /> */}
+            <Route exact path="/" component={Home} />
+            <Route exact path="/aboutme" component={AboutMe} />
+            <Route exact path="/contact" component={Contact} />
+            <Route path="/portfolio" component={Portfolio} />
             {/* <Route path="/resume" component={Resume}/> */}
           </Switch>
         </Router>
