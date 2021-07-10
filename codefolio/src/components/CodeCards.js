@@ -3,23 +3,23 @@ import React, { useState } from 'react';
 //Materialize import
 
 // create cards to map and display
-function myProjects() {
-    <div class="col s4">
-        <div class="card">
-            <div class="card-image">
-                <img src={props.image} />
-                <span class="card-title">{props.name}</span>
-            </div>
-            <div class="card-content">
-                <p>{props.description}</p>
-            </div>
-            <div class="card-action">
-                <a href={props.github}>Repo</a>
-                <a href={props.livelink}>Live Link</a>
-            </div>
-        </div>
-    </div>
-}
+// function myProjects() {
+//     <div class="col s4">
+//         <div class="card">
+//             <div class="card-image">
+//                 <img src={props.image} />
+//                 <span class="card-title">{props.name}</span>
+//             </div>
+//             <div class="card-content">
+//                 <p>{props.description}</p>
+//             </div>
+//             <div class="card-action">
+//                 <a href={props.github}>Repo</a>
+//                 <a href={props.livelink}>Live Link</a>
+//             </div>
+//         </div>
+//     </div>
+// }
 
 // function Codecards() {
 //     const [carddata] = [
@@ -90,4 +90,4 @@ function myProjects() {
 // }
 
 
-export default myProjects;
+// export default myProjects;

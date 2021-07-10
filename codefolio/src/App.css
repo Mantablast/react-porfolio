@@ -119,3 +119,23 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+
+.projectImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+}
+
+.bottom-pad {
+  padding-bottom: 150px;
+}
+
+.resume {
+  width: 50vh;
+  height: 50vh;
+}
