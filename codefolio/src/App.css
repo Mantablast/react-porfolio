@@ -61,13 +61,14 @@ main {
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
+  /* --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --spacing-five: calc(2.5rem); */
 }
 
 * {
   box-sizing: border-box;
+  
 }
 
 html,
@@ -90,6 +91,31 @@ body {
 .back-box {
   background-color: #000000;
   border-radius: 15px;
-  padding: 20px;
+  /* padding: 20px; */
   margin: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+} */
+
+main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(16, 35, 119);
+  color: white;
+  text-align: center;
 }

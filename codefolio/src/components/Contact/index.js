@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+//Most content referred to from photo react lessons 20
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {

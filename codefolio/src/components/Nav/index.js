@@ -10,7 +10,7 @@ function Nav(props) {
       <nav>
         <div class="nav-wrapper 1a237e 1a237e indigo darken-4">
           <a href="#" class="brand-logo center">
-          🚀 Aimee Jesso 🚀
+          🚀Aimee Jesso🚀
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
