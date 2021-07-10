@@ -1,7 +1,6 @@
 import React from "react";
-import myProjects from "./CodeCards";
-import Codecards from "./CodeCards";
-import carddata from "./CodeCards";
+import myProjects from "../CodeCards"
+import CodeCards from "../CodeCards"
 
 function Portfolio() {
   return (
@@ -11,8 +10,8 @@ function Portfolio() {
     <hr></hr>
   </div>
 
-  <div id="carddata" className="col s4">
-    {myProjects.map((cards) => (
+  <div id="carddata" class="col s4">
+    {myProjects.map((carddata) => (
       <CodeCards
         key={carddata.id}
         image={carddata.image}
