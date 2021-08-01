@@ -28,12 +28,12 @@ function Portfolio() {
     <div class="col s4 center">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <img src="https://user-images.githubusercontent.com/71906988/125128514-1ed29700-e0cc-11eb-9e3b-567195f3eca1.png" className="projectImg"></img> 
+          <img src="https://user-images.githubusercontent.com/71906988/127776022-6b6fd782-53fc-4503-917e-acf333bed199.png" className="projectImg"></img> 
         </div>
-        <span class="card-title">Horoscopes</span>
+        <span class="card-title">PocketWatch.io</span>
         <div class="card-action">
-          <a href="https://github.com/MissAimeeJay/myFirstHoroscopeApi">Repo</a>
-          <a href="https://missaimeejay.github.io/myFirstHoroscopeApi/">Live Link</a>
+          <a href="https://github.com/fraudwheeldrive/tracker">Repo</a>
+          <a href="https://w4tch-tow3r.herokuapp.com/">Live Link</a>
         </div>
       </div>
     </div>
